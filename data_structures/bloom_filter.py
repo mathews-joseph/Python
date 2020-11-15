@@ -46,3 +46,6 @@ bit_vector[murmur_char] = 1
 # A wild Bulbasaur appears
 fnv_bulb = fnv("Bulbasaur") % 20
 murmur_bulb = murmur("Bulbasaur") % 20
+
+print(bit_vector)
+print(fnv_bulb, fnv_char, fnv_pika, murmur_bulb, murmur_char, murmur_pika)
